@@ -976,7 +976,7 @@ tr:nth-child(even) {
   
   
   .direcionamento {
-    font-size: 18px;
+    font-size: 45px;
     display: inherit;
     flex-direction:column;
     left: 4px;
