@@ -955,6 +955,7 @@ tr:nth-child(even) {
     padding-bottom: 0px;
     width: 49px;
     position: absolute;
+    cursor:pointer;
   }
   
   #silhueta {
