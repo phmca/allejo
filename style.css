@@ -873,7 +873,7 @@ tr:nth-child(even) {
     background-color: yellow;
     border-radius: 0 0 5px 5px;
     left:2px;
-    top:34px;
+    top:104px;
     position: absolute;
   }
   .list-items {
