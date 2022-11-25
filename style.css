@@ -1537,6 +1537,7 @@ tr:nth-child(even) {
   position: relative;
   padding-left: 5px;
   top:16px;
+    cursor:pointer;
   }
   
   img {
