@@ -1041,7 +1041,7 @@ tr:nth-child(even) {
     width: 56%;
     height: 90%;
     background: transparent;
-    position: fixed;
+    position: absolute;
     z-index: 2;
     top: -100%;
     display: block;
