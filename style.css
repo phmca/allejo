@@ -1042,6 +1042,10 @@ tr:nth-child(even) {
     top: -100%;
     transition: 350ms;
     left:450px;
+    width:0vw;
+    height:0vh;
+    z-index:initial;
+    display:block;
   }
   
   .modal-2 {
