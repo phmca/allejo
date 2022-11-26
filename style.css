@@ -1038,13 +1038,8 @@ tr:nth-child(even) {
   }
   
   .bg-modal-2 {
-    width: 56%;
-    height: 90%;
-    background: transparent;
-    position: absolute;
-    z-index: 2;
+   position: absolute;
     top: -100%;
-    display: block;
     transition: 350ms;
     left:450px;
   }
