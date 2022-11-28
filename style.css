@@ -1,0 +1,2258 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+  margin:0;
+  padding:0;
+} 
+
+
+html{
+  width:100vw;
+  height: 100vh;
+}
+
+form {
+  width: 46%;
+  height: 57%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: -79px;
+  left: 38%;
+}
+input[type="text"] {
+  width: 376px;
+  padding: 15px 10px;
+  border: none;
+  border-bottom: 1px solid blue;
+  outline: none;
+  border-radius: 5px 5px 0 0;
+  background-color: yellow;
+  font-size: 16px;
+  position: absolute;
+  top:32px;
+  height: 40px;
+  left:-3px;
+  color:blue;
+}
+
+ul {
+  list-style: none;
+  background-color: blue;
+}
+.list {
+  width: 376px;
+  background-color: yellow;
+  border-radius: 0 0 5px 5px;
+  left:-3px;
+  top:71px;
+  position: absolute;
+}
+.list-items {
+  padding: 3px 5px;
+  color:blue;
+  font-size: 13px;
+}
+.list-items:hover {
+  background-color: yellow;
+}
+
+
+#demo {
+  position: relative;
+  left: 259px;
+  font-size: x-large;
+  top: 290.2px;
+  color:blue;
+}
+
+#demo-2 {
+   position: relative;
+  left: 259px;
+  font-size: x-large;
+  top: 290.2px;
+  color:blue;
+}
+
+#demo-3 {
+   position: relative;
+  left: 259px;
+  font-size: x-large;
+  top: 290.2px;
+  color:blue;
+}
+
+#demo-4 {
+   position: relative;
+  left: 259px;
+  font-size: x-large;
+  top: 290.2px;
+  color:blue;
+}
+
+#demo-5 {
+   position: relative;
+  left: 259px;
+  font-size: x-large;
+  top: 290.2px;
+  color:blue;
+}
+
+#demo-6 {
+   position: relative;
+  left: 259px;
+  font-size: x-large;
+  top: 290.2px;
+  color:blue;
+}
+
+#demo-7 {
+   position: relative;
+  left: 259px;
+  font-size: x-large;
+  top: 290.2px;
+  color:blue;
+}
+
+#how-to-play {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.175px;
+  color: yellow;
+  background: blue;
+  cursor: pointer;
+  position:absolute;
+  bottom: 23px;
+  left: 635px;
+  padding-bottom: 2px;
+  width: 70px;
+  align-self: flex-start;
+  border: revert;
+  border-color: blue;
+  border-style: groove;
+  border-left-color: blue;
+  border-right-color: blue;
+  border-bottom-color: blue;
+  border-top-color: blue;
+  text-shadow: 2px 2px 2px #32CD32;
+}
+
+#silhueta {
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.175px;
+  color: yellow;
+  background: blue;
+  cursor: pointer;
+  position: absolute;
+  bottom: 22px;
+  left: 9px;
+  padding-bottom: 2px;
+  width: 95px;
+  align-self: flex-start;
+  border: revert;
+  border-color: blue;
+  border-style: groove;
+  border-left-color: blue;
+  border-right-color: blue;
+  border-bottom-color: blue;
+  border-top-color: blue;
+}
+
+button{
+  text-shadow: 2px 2px 2px #32CD32;
+}
+
+
+.container-div {
+  position: absolute;
+  left:605px;
+  width: 28%;
+  height: 0vh;
+  top:104px;
+}
+
+.direcionamento {
+  font-size: 21px;
+  width: 228px;
+  display: flex;
+  flex-direction: row;
+  left: 4px;
+  position: absolute;
+  color: yellow;
+  text-shadow: 2px 2px 2px blue;
+  bottom: 6px;
+  inline-size: max-content;
+}
+
+.container-second {
+  display: flex;
+  position: absolute;
+  margin:auto;
+  right: 10px;
+  align-items: baseline;
+  width: 73%;
+  height: 41%;
+  left:259px;
+  top:408px;
+}
+
+span {
+  color: magenta;
+  top: 68px;
+  position: absolute;
+  float: right;
+  left:19px;
+}
+
+.bg-modal {
+  width: 56%;
+  height: 90%;
+  background: transparent;
+  position: fixed;
+  z-index: 2;
+  top: -100%;
+  display: block;
+  transition: 350ms;
+  left:492px;
+}
+
+.modal {
+  width: 59.7%;
+  height: 44%;
+  background-color: blue;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 0 12px 0 12px;
+  position: absolute;
+  left:0.2px;
+  bottom:366px;
+}
+
+.modal span {
+  float: right;
+  font-size: 22px;
+  color: #32CD32;
+  margin: 20px 20px;
+  transition: 350ms;
+  cursor: pointer;
+  left:-20px;
+  top:-26px;
+}
+
+.modal span:hover {
+  color: yellow;
+  transition: 350ms;
+}
+
+.bg-modal-2 {
+  width: 56%;
+  height: 90%;
+  background: transparent;
+  position: fixed;
+  z-index: 2;
+  top: -100%;
+  display: block;
+  transition: 350ms;
+  left:492px;
+}
+
+.modal-2 {
+  width: 59.7%;
+  height: 48%;
+  background-color: #fffbfb;
+  border: 1px solid #fffbfb;
+  border-radius: 5px;
+  padding: 0 12px 0 12px;
+  position: absolute;
+  left:0.2px;
+  bottom:340px;
+}
+
+.modal-2 span {
+  float: right;
+  font-size: 22px;
+  color: #32CD32;
+  margin: 20px 20px;
+  transition: 350ms;
+  cursor: pointer;
+  left:-20px;
+  top:-26px;
+}
+
+.modal-2 span:hover {
+  color: yellow;
+  transition: 350ms;
+}
+
+.bg-modal-3 {
+  width: 56%;
+  height: 90%;
+  background: transparent;
+  position: fixed;
+  z-index: 2;
+  top: -100%;
+  display: block;
+  transition: 350ms;
+  left:450px;
+}
+
+.modal-3 {
+ width: 58.6%;
+  height: 54%;
+  background-color: #fffbfb;
+  border: 1px solid #fffbfb;
+  border-radius: 5px;
+  margin: 68px auto 0 auto;
+  padding: 0 12px 0 12px;
+  position: relative;
+  left:-129.1px;
+  bottom:16px;
+}
+
+.modal-3 span {
+  float: right;
+  font-size: 22px;
+  color: #32CD32;
+  margin: 20px 20px;
+  transition: 350ms;
+  cursor: pointer;
+  left:-20px;
+  top:-26px;
+}
+
+.modal-3 span:hover {
+  color: yellow;
+  transition: 350ms;
+}
+
+.bg-modal-4 {
+  width: 56%;
+  height: 90%;
+  background: transparent;
+  position: fixed;
+  z-index: 2;
+  top: -100%;
+  display: block;
+  transition: 350ms;
+  left:450px;
+}
+
+.modal-4 {
+width: 58.6%;
+  height: 54%;
+  background-color: #fffbfb;
+  border: 1px solid #fffbfb;
+  border-radius: 5px;
+  margin: 68px auto 0 auto;
+  padding: 0 12px 0 12px;
+  position: relative;
+  left:-129.1px;
+  bottom:16px;
+  
+}
+
+.modal-4 span {
+  float: right;
+  font-size: 22px;
+  color: #32CD32;
+  margin: 20px 20px;
+  transition: 350ms;
+  cursor: pointer;
+  left:-20px;
+  top:-26px;
+}
+
+.modal-4 span:hover {
+  color: yellow;
+  transition: 350ms;
+}
+
+.bg-modal-5 {
+  width: 56%;
+  height: 90%;
+  background: transparent;
+  position: fixed;
+  z-index: 2;
+  top: -100%;
+  display: block;
+  transition: 350ms;
+  left:450px;
+}
+
+.modal-5 {
+  width: 58.6%;
+  height: 54%;
+  background-color: #fffbfb;
+  border: 1px solid #fffbfb;
+  border-radius: 5px;
+  margin: 68px auto 0 auto;
+  padding: 0 12px 0 12px;
+  position: relative;
+  left:-129.1px;
+  bottom:16px;
+}
+
+.modal-5 span {
+  float: right;
+  font-size: 22px;
+  color: #32CD32;
+  margin: 20px 20px;
+  transition: 350ms;
+  cursor: pointer;
+  left:-20px;
+  top:-26px;
+}
+
+.modal-5 span:hover {
+  color: yellow;
+  transition: 350ms;
+}
+
+.bg-modal-6 {
+  width: 56%;
+  height: 90%;
+  background: transparent;
+  position: fixed;
+  z-index: 2;
+  top: -100%;
+  display: block;
+  transition: 350ms;
+  left:450px;
+}
+
+.modal-6 {
+ width: 58.6%;
+  height: 54%;
+  background-color: #fffbfb;
+  border: 1px solid #fffbfb;
+  border-radius: 5px;
+  margin: 68px auto 0 auto;
+  padding: 0 12px 0 12px;
+  position: relative;
+  left:-129.1px;
+  bottom:16px;
+}
+
+.modal-6 span {
+  float: right;
+  font-size: 22px;
+  color: #32CD32;
+  margin: 20px 20px;
+  transition: 350ms;
+  cursor: pointer;
+  left:-20px;
+  top:-26px;
+}
+
+.modal-6 span:hover {
+  color: yellow;
+  transition: 350ms;
+}
+
+.bg-modal-7 {
+  width: 56%;
+  height: 90%;
+  background: transparent;
+  position: fixed;
+  z-index: 2;
+  top: -100%;
+  display: block;
+  transition: 350ms;
+  left:450px;
+}
+
+.modal-7 {
+ width: 58.6%;
+  height: 54%;
+  background-color: #fffbfb;
+  border: 1px solid #fffbfb;
+  border-radius: 5px;
+  margin: 68px auto 0 auto;
+  padding: 0 12px 0 12px;
+  position: relative;
+  left:-129.1px;
+  bottom:16px;
+  
+}
+
+.modal-7 span {
+  float: right;
+  font-size: 22px;
+  color: #32CD32;
+  margin: 20px 20px;
+  transition: 350ms;
+  cursor: pointer;
+  left:-20px;
+  top:-26px;
+}
+
+.modal-7 span:hover {
+  color: yellow;
+  transition: 350ms;
+}
+
+.bg-modal-8 {
+  width: 56%;
+  height: 90%;
+  background: transparent;
+  position: fixed;
+  z-index: 2;
+  top: -100%;
+  display: block;
+  transition: 350ms;
+  left:450px;
+}
+
+.modal-8 {
+ width: 58.6%;
+  height: 54%;
+  background-color: #fffbfb;
+  border: 1px solid #fffbfb;
+  border-radius: 5px;
+  margin: 68px auto 0 auto;
+  padding: 0 12px 0 12px;
+  position: relative;
+  left:-129.1px;
+  bottom:16px;
+  
+}
+
+.modal-8 span {
+  float: right;
+  font-size: 22px;
+  color: #32CD32;
+  margin: 20px 20px;
+  transition: 350ms;
+  cursor: pointer;
+  left:-20px;
+  top:-26px;
+}
+
+.modal-8 span:hover {
+  color: yellow;
+  transition: 350ms;
+}
+
+.bg-modal-9 {
+  width: 56%;
+  height: 90%;
+  background: transparent;
+  position: fixed;
+  z-index: 2;
+  top: -100%;
+  display: block;
+  transition: 350ms;
+  left:450px;
+}
+
+.modal-9 {
+ width: 58.6%;
+  height: 54%;
+  background-color: #fffbfb;
+  border: 1px solid #fffbfb;
+  border-radius: 5px;
+  margin: 68px auto 0 auto;
+  padding: 0 12px 0 12px;
+  position: relative;
+  left:-129.1px;
+  bottom:16px;
+  
+}
+
+.modal-9 span {
+  float: right;
+  font-size: 22px;
+  color: #32CD32;
+  margin: 20px 20px;
+  transition: 350ms;
+  cursor: pointer;
+  left:-20px;
+  top:-26px;
+}
+
+.modal-9 span:hover {
+  color: yellow;
+  transition: 350ms;
+}
+
+.img-jogador {
+  margin: auto;
+  width: 300px;
+  height: 271px;
+  position: absolute;
+  left: 89px;
+  bottom: 28px;
+  mix-blend-mode: initial;
+  display: flex;
+  align-self: center;
+}
+
+.img-jogador-silhueta {
+  margin: auto;
+  width: 282px;
+  height: 267px;
+  position: absolute;
+  left: 98px;
+  bottom: -36px;
+  mix-blend-mode:hard-light;
+}
+
+#instructions {
+  font-size: 27px;
+  text-align: center;
+  position: relative;
+  align-items: center;
+ color:yellow;
+  top: 4px;
+  right: 4px;
+}
+
+h3 {
+  font-size: 17px;
+  text-align: center;
+  position: relative;
+  align-items: center;
+  top: 10px;
+  right: 12px;
+  color:blue;
+}
+
+p1 {
+  font-size: 13px;
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+  align-items: center;
+  color: yellow;
+  top: -9px;
+  left: 3px;
+}
+
+p2 {
+  font-size: 13px;
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+  align-items: center;
+  color:yellow;
+  top: -23px;
+  left: 5px;
+}
+
+p3 {
+  font-size: 13px;
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+  align-items: center;
+  color:yellow;
+  top: -35px;
+  left: 7px;
+}
+
+p4 {
+  font-size: 13px;
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+  align-items: center;
+  color:yellow;
+  top: -49px;
+  left: 9px;
+  word-break: break-word;
+}
+
+p5 {
+  position: absolute;
+  bottom: 13px;
+  left: 76px;
+  font-size:x-large;
+  color:blue;
+}
+
+caption {
+  color: blue;
+}
+
+header {
+  height: 10vh;
+    width: 55vw;
+    left: 377px;
+    position: absolute;
+    top:1px;
+}
+
+img {
+  position: absolute;
+  width: 440px;
+  height: 199px;
+  top: 12px;
+  left: 620px;
+}
+
+body {
+  height: 100vh;
+  width: 106vw;
+  background: #32cd32;
+}
+
+.guess-container {
+  position:absolute;
+  left: 523px;
+  width: 23vw;
+  height: 60%;
+  bottom: -23px;
+}
+
+#text {position:relative;
+  top:5px;
+
+}
+
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 30px;
+  box-shadow: 20px 20px 20px 5px transparent;
+  background-color: blue;
+  text-align: left;
+  left: 20px;
+  position:relative;
+  width: 106vh;
+}
+
+th {
+  background-color: blue;
+  padding: 0.75rem 2rem;
+  padding-top: 10px;
+  padding-bottom: 7px;
+  padding-left: 30px;
+  padding-right: 40px;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 0.7rem;
+  font-weight: 900;
+  color: yellow;
+  text-align: center;
+  text-shadow: 2px 2px 2px #32CD32;
+}
+
+
+td {
+  padding: 1rem 2rem;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+  border-collapse: collapse;
+  box-shadow: 20px 20px 20px 5px transparent;
+  background-color: yellow;
+  text-align: center;
+  color: blue;
+  font-size: 14px;
+  font-weight: 800px;
+  border-style: solid;
+}
+
+
+p { 
+  position: relative;
+  top:-3px;
+
+}
+
+tr:nth-child(even) {
+  background-color: green;
+}
+
+
+#slot-1 {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+  font-size:smaller;
+}
+
+#slot-2 {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+  font-size:smaller;
+}
+
+#slot-3 {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+  font-size:smaller;
+}
+
+#slot-4 {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+  font-size:smaller;
+}
+
+#slot-5 {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+  font-size:smaller;
+}
+
+#slot-6 {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+  font-size:smaller;
+}
+
+
+@media screen and (max-width:480px) {
+  * {
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    margin:0;
+    padding:0;
+  } 
+  
+ html {
+   width: 100vw;
+   height: 100vh;
+ }
+
+  
+  form {
+    width: 80vmin;
+    height: 18%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 8%;
+    left: 75.7%;
+    padding: 23px 0;
+  }
+
+  input[type="text"] {
+    width: 273px;
+    padding: 12px 10px;
+    border: none;
+    border-bottom: 1px solid #645979;
+    outline: none;
+    border-radius: 5px 5px 0 0;
+    background-color: yellow;
+    font-size: 11px;
+    color:blue;
+    position:absolute;
+    left: 41px;
+    bottom:-25px;
+  }
+  ul {
+    list-style: none;
+    background-color: blue;
+  }
+  .list {
+    width: 273px;
+    background-color: yellow;
+    border-radius: 0 0 5px 5px;
+    left:41px;
+    top:71px;
+    position: absolute;
+  }
+  .list-items {
+    padding: 3px 5px;
+    color:blue;
+    font-size: 11px;
+  }
+  .list-items:hover {
+    background-color: yellow;
+  }
+  
+
+  .container {
+    height: 0vh;
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  #demo {
+    position: relative;
+    left: 190px;
+    font-size:large;
+    top:39.9px;
+  }
+  
+  #demo-2 {
+    position: relative;
+    left: 190px;
+    font-size:large;
+    top:39.9px;
+  }
+  
+  #demo-3 {
+    position: relative;
+    left: 190px;
+    font-size:large;
+    top:39.9px;
+  }
+  
+  #demo-4 {
+    position: relative;
+    left: 190px;
+    font-size:large;
+    top:39.9px;
+  }
+  
+  #demo-5 {
+    position: relative;
+    left: 190px;
+    font-size:large;
+    top:39.9px;
+  }
+  
+  #demo-6 {
+    position: relative;
+    left: 190px;
+    font-size:large;
+    top:39.9px;
+  }
+  
+  #demo-7 {
+    position: relative;
+    left: 190px;
+    font-size:large;
+    top:39.9px;
+  }
+  
+  #how-to-play {
+    height: 42px;
+    font-size: 16px;
+    line-height: 16px;
+    bottom: 10.5px;
+    left: 147px;
+    padding-bottom: 0px;
+    width: 49px;
+    position: absolute;
+    cursor:pointer;
+  }
+  
+  #silhueta {
+    font-size: 15px;
+    line-height: 16px;
+    bottom: 11px;
+    left: 198px;
+    width: 60px;
+    height: 41px;
+    position: absolute;
+    cursor:pointer;
+  }
+  
+  button{
+    text-shadow: 2px 2px 2px #32CD32;
+  }
+  
+  
+  
+  .direcionamento {
+    font-size: 18px;
+    display: inherit;
+    flex-direction:column;
+    left: 74px;
+    position: absolute;
+    color: yellow;
+    text-shadow: 2px 2px 2px blue;
+    white-space: nowrap;
+    width: 61vw;
+    bottom:6px;
+  }
+
+  .container-div {
+    position: relative;
+    left: 0px;
+    width: 100vw;
+    height: 3vh;
+    top: 94px;
+
+  }
+  
+  .container-second {
+    display: flex;
+    position:relative;
+    margin:auto;
+    align-items: baseline;
+    height:37vh;
+    left: -3px;
+    max-height: 311px;
+    min-height: 309px;
+    min-width: 386px;
+    top:490px;
+  }
+  
+  .bg-modal {
+    width: 100%;
+    height: 1%;
+    background: transparent;
+    position: relative;
+    z-index: 2;
+    top: -100%;
+    display: block;
+    transition: 350ms;
+    left:0px;
+    bottom:1px;
+  }
+  
+  .modal {
+    width: 87vw;
+    height: 274px;
+    background-color: blue;
+    border:1px solid;
+    border-radius:5px;
+    margin:0px auto 0 auto;
+    position: inherit;
+    top: -90px;
+    left: 13px;
+    min-height: 316px;
+  }
+  
+  .modal span {
+    float: right;
+    font-size: 22px;
+    color: #32CD32;
+    margin: 20px 20px;
+    transition: 350ms;
+    cursor: pointer;
+    left:-20px;
+    top:-26px;
+  }
+  
+  .modal span:hover {
+    color: yellow;
+    transition: 350ms;
+  }
+
+  .bg-modal-2{
+    width: 100%;
+    height: 1%;
+    background: transparent;
+    position: relative;
+    z-index: 2;
+    top: -100%;
+    display: block;
+    transition: 350ms;
+    left: 0px;
+    bottom: 1px;
+    white-space: break-spaces;
+  }
+  /*.bg-modal-2 {
+    width: 86%;
+    height: 42%;
+    background: transparent;
+    position: absolute;
+    z-index: 2;
+    top: -100%;
+    display: block;
+    transition: 350ms;
+    left:26px;
+    bottom:2px;
+  }*/
+  
+.modal-2 {
+  width: 87vw;
+    height: 259px;
+    background-color: #fffbfb;
+    border: 1px solid #fffbfb;
+    border-radius: 5px;
+    margin: 0px auto 0 auto;
+    padding:0 12px 0 12px;
+    position: inherit;
+    top: -19px;
+    left: 13px;
+    min-height: 218px;
+}
+
+
+  /*.modal-2 {
+    height: 295px;
+    border: 1px solid #fffbfb;
+    border-radius: 5px;
+    padding: 0 4px 0 12px;
+    background-color: #fffbfb;
+    position: inherit;
+    left: 1px;
+    top:0px;
+    width: 86vw;
+    max-height: 277px;
+  }*/
+  
+  .modal-2 span {
+    float: right;
+    font-size: 22px;
+    color: #32CD32;
+    margin: 20px 20px;
+    transition: 350ms;
+    cursor: pointer;
+    left:-20px;
+    top:-28px;
+  }
+  
+  .modal-2 span:hover {
+    color: yellow;
+    transition: 350ms;
+  }
+  
+  .bg-modal-3 {
+    width: 56%;
+    height: 90%;
+    background: transparent;
+    position: fixed;
+    z-index: 2;
+    top: -100%;
+    display: block;
+    transition: 350ms;
+    left:450px;
+    visibility: visible;
+  }
+  
+  .modal-3 {
+  width: 145.6%;
+  height: 45%;
+  background-color: #fffbfb;
+  border: 1px solid #fffbfb;
+  border-radius: 5px;
+  margin: 0 auto 0 auto;
+  padding: 0 12px 0 12px;
+  position: absolute;
+  left:-407px;
+  bottom:239px;
+  min-width: 308px;
+  min-height: 308px;
+  max-height:325px ;
+  }
+  
+  .modal-3 span {
+    float: right;
+    font-size: 22px;
+    color: #32CD32;
+    margin: 20px 20px;
+    transition: 350ms;
+    cursor: pointer;
+    left:-19px;
+    top:-26px;
+  }
+  
+  .modal-3 span:hover {
+    color: yellow;
+    transition: 350ms;
+  }
+  
+  .bg-modal-4 {
+    width: 56%;
+    height: 90%;
+    background: transparent;
+    position: fixed;
+    z-index: 2;
+    top: -100%;
+    display: block;
+    transition: 350ms;
+    left:450px;
+    visibility: visible;
+  }
+  
+  .modal-4 {
+ width: 145.6%;
+  height: 45%;
+  background-color: #fffbfb;
+  border: 1px solid #fffbfb;
+  border-radius: 5px;
+  margin: 0 auto 0 auto;
+  padding: 0 12px 0 12px;
+  position: absolute;
+  left:-407px;
+  bottom:239px;
+  min-width: 308px;
+  min-height: 308px;
+  max-height:325px ;
+  }
+  
+  .modal-4 span {
+    float: right;
+    font-size: 22px;
+    color: #32CD32;
+    margin: 20px 20px;
+    transition: 350ms;
+    cursor: pointer;
+    left:-20px;
+    top:-26px;
+  }
+  
+  .modal-4 span:hover {
+    color: yellow;
+    transition: 350ms;
+  }
+  
+  .bg-modal-5 {
+    width: 56%;
+    height: 90%;
+    background: transparent;
+    position: fixed;
+    z-index: 2;
+    top: -100%;
+    display: block;
+    transition: 350ms;
+    left:450px;
+    visibility: visible;
+  }
+  
+  .modal-5 {
+  width: 145.6%;
+  height: 45%;
+  background-color: #fffbfb;
+  border: 1px solid #fffbfb;
+  border-radius: 5px;
+  margin: 0 auto 0 auto;
+  padding: 0 12px 0 12px;
+  position: absolute;
+  left:-407px;
+  bottom:239px;
+  min-width: 308px;
+  min-height: 308px;
+  max-height:325px ;
+  }
+  
+  .modal-5 span {
+    float: right;
+    font-size: 22px;
+    color: #32CD32;
+    margin: 20px 20px;
+    transition: 350ms;
+    cursor: pointer;
+    left:-20px;
+    top:-26px;
+  }
+  
+  .modal-5 span:hover {
+    color: yellow;
+    transition: 350ms;
+  }
+  
+  .bg-modal-6 {
+    width: 56%;
+    height: 90%;
+    background: transparent;
+    position: fixed;
+    z-index: 2;
+    top: -100%;
+    display: block;
+    transition: 350ms;
+    left:450px;
+    visibility: visible;
+  }
+  
+  .modal-6 {
+  width: 145.6%;
+  height: 45%;
+  background-color: #fffbfb;
+  border: 1px solid #fffbfb;
+  border-radius: 5px;
+  margin: 0 auto 0 auto;
+  padding: 0 12px 0 12px;
+  position: absolute;
+  left:-407px;
+  bottom:239px;
+  min-width: 308px;
+  min-height: 308px;
+  max-height:325px ;
+  }
+  
+  .modal-6 span {
+    float: right;
+    font-size: 22px;
+    color: #32CD32;
+    margin: 20px 20px;
+    transition: 350ms;
+    cursor: pointer;
+    left:-20px;
+    top:-26px;
+  }
+  
+  .modal-6 span:hover {
+    color: yellow;
+    transition: 350ms;
+  }
+  
+  .bg-modal-7 {
+    width: 56%;
+    height: 90%;
+    background: transparent;
+    position: fixed;
+    z-index: 2;
+    top: -100%;
+    display: block;
+    transition: 350ms;
+    left:450px;
+    visibility: visible;
+  }
+  
+  .modal-7 {
+  width: 145.6%;
+  height: 45%;
+  background-color: #fffbfb;
+  border: 1px solid #fffbfb;
+  border-radius: 5px;
+  margin: 0 auto 0 auto;
+  padding: 0 12px 0 12px;
+  position: absolute;
+  left:-407px;
+  bottom:239px;
+  min-width: 308px;
+  min-height: 308px;
+  max-height:325px ;
+  }
+  
+  .modal-7 span {
+    float: right;
+    font-size: 22px;
+    color: #32CD32;
+    margin: 20px 20px;
+    transition: 350ms;
+    cursor: pointer;
+    left:-20px;
+    top:-26px;
+  }
+  
+  .modal-7 span:hover {
+    color: yellow;
+    transition: 350ms;
+  }
+  
+  .bg-modal-8 {
+    width: 56%;
+    height: 90%;
+    background: transparent;
+    position: fixed;
+    z-index: 2;
+    top: -100%;
+    display: block;
+    transition: 350ms;
+    left:450px;
+    visibility: visible;
+  }
+  
+  .modal-8 {
+  width: 145.6%;
+  height: 45%;
+  background-color: #fffbfb;
+  border: 1px solid #fffbfb;
+  border-radius: 5px;
+  margin: 0 auto 0 auto;
+  padding: 0 12px 0 12px;
+  position: absolute;
+  left:-407px;
+  bottom:239px;
+  min-width: 308px;
+  min-height: 308px;
+  max-height:325px ;
+  }
+  
+  .modal-8 span {
+    float: right;
+    font-size: 22px;
+    color: #32CD32;
+    margin: 20px 20px;
+    transition: 350ms;
+    cursor: pointer;
+    left:-20px;
+    top:-26px;
+  }
+  
+  .modal-8 span:hover {
+    color: yellow;
+    transition: 350ms;
+  }
+  
+  .bg-modal-9 {
+    width: 56%;
+    height: 90%;
+    background: transparent;
+    position: fixed;
+    z-index: 2;
+    top: -100%;
+    display: block;
+    transition: 350ms;
+    left:450px;
+    visibility: visible;
+  }
+  
+  .modal-9 {
+   width: 145.6%;
+  height: 45%;
+  background-color: #fffbfb;
+  border: 1px solid #fffbfb;
+  border-radius: 5px;
+  margin: 0 auto 0 auto;
+  padding: 0 12px 0 12px;
+  position: absolute;
+  left:-407px;
+  bottom:239px;
+  min-width: 308px;
+  min-height: 308px;
+  max-height:325px ;
+  }
+  
+  .modal-9 span {
+    float: right;
+    font-size: 22px;
+    color: #32CD32;
+    margin: 20px 20px;
+    transition: 350ms;
+    cursor: pointer;
+    left:-20px;
+    top:-26px;
+  }
+  
+  .modal-9 span:hover {
+    color: yellow;
+    transition: 350ms;
+  }
+  
+  .img-jogador {
+    margin: auto;
+    width: 246px;
+    height: 241px;
+    position: relative;
+    top:25px;
+    display:flex;
+    align-self: center;
+    left:-6px;
+    mix-blend-mode: initial;
+    min-width: 53vw;
+    max-width: 60vw;
+    min-height: 23vh;
+    max-height: 29vh;
+  }
+
+  .img-jogador-silhueta {
+    margin: auto;
+    width: 203px;
+    height: 213px;
+    position: relative;
+    left: -9px;
+    top: 13px;
+    max-height: 207px;
+    align-self: center;
+    mix-blend-mode: hard-light;
+    display: flex;
+}
+  
+
+  /*.img-jogador-silhueta {
+    margin: auto;
+    width: 203px;
+    height: 213px;
+    position: relative;
+    left: -11px;
+    top: 65px;
+    max-height: 207px;
+    align-self: center;
+    mix-blend-mode:hard-light;
+    display: flex;
+  }*/
+  
+  
+  h3 {
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    color:blue;
+    top: 18px;
+    left: -1px;
+    min-width: 75vw;
+  }
+
+  #h3-silhueta {
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    color: blue;
+    top: -270px;
+    left: -11px;
+    min-width: 75vw;
+    align-items: center;
+  }
+
+  /*#h3-silhueta {
+    font-size:15px;
+    text-align: center;
+    position: relative;
+    color: blue;
+    top: -197px;
+    left: -11px;
+  }*/
+
+  #instructions {
+    font-size: 22px;
+    text-align: center;
+    position: absolute;
+    align-items: center;
+    top: 1px;
+    right: 4px;
+    color:yellow;
+    text-shadow: hidden;
+  }
+  
+  p1 {
+    font-size: 13px;
+    font-weight: 900;
+    position: relative;
+    align-items: center;
+    color:yellow;
+    top: 15px;
+    left: -2px;
+    display: flex;
+    text-align: justify;
+  }
+  
+  p2 {
+    font-size: 13px;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    color:yellow;
+    top: -14px;
+    left: -2px;
+    display: flex;
+    text-align: justify;
+    white-space: break-spaces;
+  }
+  
+  p3 {
+    font-size: 13px;
+    font-weight: 900;
+    position: relative;
+    align-items: center;
+    color:yellow;
+    top: -41px;
+    left: -2px;
+    display: flex;
+    text-align: justify;
+    white-space: break-spaces;
+  }
+  
+  p4 {
+    font-size: 13px;
+    font-weight: 900;
+    position: relative;
+    align-items: center;
+    color:yellow;
+    top: -68px;
+    left: -2px;
+    display: flex;
+    text-align: justify;
+    white-space: break-spaces;
+  }
+  
+  p5 {
+    position: relative;
+    bottom: -17px;
+    left: 33px;
+    font-size: larger;
+    color:blue;
+  }
+  
+  caption {
+    color: blue;
+  }
+  
+  header {
+
+    height: 7vh;
+  width: 101vw;
+  left: -1px;
+  position: relative;
+  padding-left: 5px;
+  top:16px;
+  }
+  
+  img {
+    position: absolute;
+    width: 440px;
+    height: 199px;
+    top: 12px;
+    left: 620px;
+  }
+  
+  body {
+    height:100vh;
+    width: 100vw;
+  }
+  
+  .guess-container {
+    position:relative;
+    left: 2px;
+    width: 59vw;
+    height: 6%;
+    bottom: 122px;
+  }
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 20px;
+    box-shadow: 20px 20px 10px 5px transparent;
+    background-color: blue;
+    text-align: left;
+    left: 2px;
+    position:relative;
+    bottom:2px;
+  }
+  
+  th {
+    background-color: blue;
+    padding: 0.75rem 2rem;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 7.45px;
+    font-weight: 900;
+    color: yellow;
+    text-align: center;
+    text-shadow: 2px 2px 2px #32CD32;
+  }
+  
+  td {
+    padding-top: 4px;
+    padding-bottom: 21px;
+    padding-left: 37px;
+    padding-right: 13px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 9px;
+    font-weight: 800px;
+    border-style: double;
+   border-color:blue;
+  }
+
+  tr {
+    position: relative;
+    width: 20px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: green;
+  }
+
+  td {
+    padding-top: 47px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 32px;
+    border-collapse: collapse;
+    box-shadow: 20px 20px 20px 5px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 14px;
+    font-weight: 800;
+    border-style: solid;
+  }
+  
+  
+  #posição {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;
+  }
+  
+  #número {
+    padding-top: 11px;
+    padding-bottom: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;
+  }
+  
+  #time{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right:1px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;
+
+  }
+  
+  
+  #campeão {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;
+  }
+  
+  #primeira-copa{
+    padding-top: 10px;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;  
+  
+  }
+  
+
+  #convocações{
+    padding-top: 7px;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    padding-right: 1px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;
+  }
+
+  #posição-2 {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;
+  }
+  
+  #número-2 {
+   padding-top: 11px;
+    padding-bottom: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;
+  }
+  
+  #time-2{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right:1px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;
+
+  }
+  
+  
+  #campeão-2 {
+   padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;
+  }
+  
+  #primeira-copa-2{
+    padding-top: 10px;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;  
+  
+  
+  }
+  
+
+  #convocações-2{
+   padding-top: 7px;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    padding-right: 1px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;
+  
+  }
+
+  #posição-3 {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;
+  }
+  
+  #número-3 {
+   padding-top: 11px;
+    padding-bottom: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;
+  }
+  
+  #time-3{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right:1px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;
+
+  }
+  
+  
+  #campeão-3 {
+   padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;
+  }
+  
+  #primeira-copa-3{
+    padding-top: 10px;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;  
+  
+  
+  }
+  
+
+  #convocações-3{
+   padding-top: 7px;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    padding-right: 1px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;
+  
+  }
+
+  #posição-4 {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;
+  }
+  
+  #número-4 {
+   padding-top: 11px;
+    padding-bottom: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;
+  }
+  
+  #time-4{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right:1px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;
+
+  }
+  
+  
+  #campeão-4 {
+   padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;
+  }
+  
+  #primeira-copa-4{
+    padding-top: 10px;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;  
+  
+  
+  }
+  
+
+  #convocações-4{
+   padding-top: 7px;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    padding-right: 1px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;
+  
+  }
+
+  #posição-5 {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;
+  }
+  
+  #número-5 {
+   padding-top: 11px;
+    padding-bottom: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;
+  }
+  
+  #time-5{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right:1px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;
+
+  }
+  
+  
+  #campeão-5 {
+   padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;
+  }
+  
+  #primeira-copa-5{
+    padding-top: 10px;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;  
+  
+  
+  }
+  
+
+  #convocações-5{
+   padding-top: 7px;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    padding-right: 1px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;
+  
+  }
+
+  #posição-6 {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;
+  }
+  
+  #número-6 {
+   padding-top: 11px;
+    padding-bottom: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;
+  }
+  
+  #time-6{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right:1px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;
+
+  }
+  
+  
+  #campeão-6 {
+   padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;
+  }
+  
+  #primeira-copa-6{
+    padding-top: 10px;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;  
+  
+  
+  }
+  
+
+  #convocações-6 {
+   padding-top: 7px;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    padding-right: 1px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 0px 0px transparent;
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-weight: 800px;
+   border-color:blue;
+  
+  }
+
+  
+  
+
+  
+  
+  }
+
+
+ 
