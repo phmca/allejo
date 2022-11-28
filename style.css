@@ -1032,6 +1032,7 @@ tr:nth-child(even) {
     cursor: pointer;
     left:-20px;
     top:-26px;
+    
   }
   
   .modal span:hover {
