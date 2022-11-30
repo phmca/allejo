@@ -1185,7 +1185,7 @@ tr:nth-child(even) {
     border-radius: 5px;
     margin: 0 auto 0 auto;
     padding: 0 12px 0 12px;
-    position: absolute;
+    position: relative;
     left: -407px;
     bottom: 239px;
     min-width: 308px;
