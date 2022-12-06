@@ -1172,7 +1172,7 @@ tr:nth-child(even) {
     margin: 0px auto 0 auto;
     position: initial;
     /* top: -100px; */
-    left: 1px;
+    left: 0px;
     min-height: 81px;
     display: grid;
     flex-direction: column;
